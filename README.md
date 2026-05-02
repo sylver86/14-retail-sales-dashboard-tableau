@@ -1,70 +1,99 @@
-# RetailReveal — European Sales Intelligence Dashboard (Tableau)
+# RetailReveal — Dashboard BI per Sales Intelligence Europea (Tableau)
+
+![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?logo=tableau&logoColor=white)
+![BI](https://img.shields.io/badge/Business%20Intelligence-Dashboard-blue)
+![LOD](https://img.shields.io/badge/Tableau-LOD%20Expressions-orange)
+
+## Panoramica
+
+Soluzione BI su Tableau per sostituire il reporting manuale su Excel/PowerPoint di un Superstore europeo con una piattaforma interattiva di self-service analytics. Il progetto include due workbook collegati: un **dashboard di monitoraggio vendite** e una **story di allocazione budget marketing** — coprendo l'intero ciclo analitico da KPI descrittivi a raccomandazioni prescrittive.
+
+Competenza di visual storytelling e BI trasversale a tutti i settori: richiesta da qualsiasi azienda con esigenze di reporting per stakeholder non tecnici.
+
+[![Apri su Tableau Public](https://img.shields.io/badge/Apri%20Dashboard-Tableau%20Public-E97627?logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/eugenio.pasqua/viz/shared/747ZJK6KW)
+
+## Valore Enterprise
+
+| Settore / Azienda | Rilevanza |
+|-------------------|-----------|
+| Energy (Enel, Terna) | Dashboard KPI operativi per management non tecnico |
+| IT Consulting (Accenture, NTT Data) | Delivery BI per clienti enterprise, visual storytelling |
+| Data Reply | Tableau come strumento di analytics consulting |
+| Engineering Informatica | Integrazione dashboard BI in suite aziendali |
+
+## Componenti della Soluzione
+
+### 1. Dashboard di Monitoraggio Vendite
+
+| Visualizzazione | Scopo |
+|-----------------|-------|
+| Trend vendite nel tempo | Traiettoria ricavi per periodo |
+| Profitto per paese europeo | Identificazione aree geografiche vincenti/perdenti |
+| Unità spedite per classe spedizione | Ottimizzazione logistica |
+| Redditività per prodotto | Surface outlier di margine |
+
+Filtri: paese, categoria prodotto, periodo, classe spedizione.
+
+### 2. Story Allocazione Budget Marketing (framework 3C)
+
+Narrativa Tableau Story seguendo **Contesto → Conflitto → Conclusione**:
+- Prodotti da scalare: alto margine, domanda crescente
+- Prodotti da ridurre: performance in declino
+- Prodotti da dismettere: margine negativo, bassa rotazione
+
+### 3. Insight Bonus
+- Analisi margine profitto per città e paese
+- Efficienza spedizioni per categoria prodotto
+- Decomposizione trend (stagionalità vs trend strutturale)
+
+## Contesto Business
+
+**Problema del cliente**: reporting manuale su Excel/PowerPoint — error-prone, nessuna visibilità real-time sulle operazioni europee, budget marketing allocato per intuizione.
+
+**Soluzione**: piattaforma interattiva unica che sostituisce 3 report legacy, abilitando self-service analytics per stakeholder non tecnici.
+
+## Stack Tecnologico
+
+`Tableau Desktop` · `Tableau Public` · `Calculated Fields` · `LOD Expressions` · `Story Points`
+
+---
+
+---
+
+# RetailReveal — European Sales Intelligence Dashboard (Tableau) 🇬🇧
 
 ![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?logo=tableau&logoColor=white)
 ![BI](https://img.shields.io/badge/Business%20Intelligence-Dashboard-blue)
 
-## Live Dashboard
-
-[![Open in Tableau Public](https://img.shields.io/badge/Open%20Dashboard-Tableau%20Public-E97627?logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/eugenio.pasqua/viz/shared/747ZJK6KW)
-
----
-
 ## Overview
 
-**RetailReveal** is a Tableau BI solution built for a European Superstore to replace manual spreadsheet reporting with an interactive, data-driven decision-making tool.
-The project delivers two connected workbooks: a **sales monitoring dashboard** and a **marketing budget allocation story** — together covering the full analytical lifecycle from descriptive KPIs to prescriptive budget recommendations.
+Tableau BI solution replacing manual Excel/PowerPoint reporting for a European Superstore with an interactive self-service analytics platform. Two connected workbooks: a **sales monitoring dashboard** and a **marketing budget allocation story** — covering the full analytical lifecycle from descriptive KPIs to prescriptive budget recommendations.
 
----
+[![Open in Tableau Public](https://img.shields.io/badge/Open%20Dashboard-Tableau%20Public-E97627?logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/eugenio.pasqua/viz/shared/747ZJK6KW)
 
 ## Dashboard Components
 
 ### 1. Sales Monitoring Dashboard
-Interactive, filterable views including:
 
 | Visualisation | Purpose |
 |---------------|---------|
-| Sales trend over time | Track revenue trajectory by period |
-| Profit analysis by European country | Identify geographic winners and underperformers |
-| Units shipped by shipping class | Optimise logistics and fulfilment costs |
+| Sales trend over time | Revenue trajectory by period |
+| Profit by European country | Identify geographic winners and underperformers |
+| Units by shipping class | Optimise logistics and fulfilment |
 | Product-level profitability | Surface margin outliers |
 
-Filters: country, product category, time period, shipping class.
+### 2. Marketing Budget Allocation Story (3C framework)
 
-### 2. Marketing Budget Allocation Story (3C structure)
-A narrative Tableau Story following the **Context → Conflict → Conclusion** framework:
-
-- **Products to scale up**: high margin, growing demand
-- **Products to reduce investment**: declining performance
-- **Products to discontinue**: negative margin, low velocity
-
-### 3. Bonus Insights
-- Profit margin analysis by city and country
-- Shipping efficiency per product category
-- Performance trend decomposition (seasonality vs. trend)
-
----
+Tableau Story following **Context → Conflict → Conclusion**:
+- Products to scale up: high margin, growing demand
+- Products to reduce investment: declining performance
+- Products to discontinue: negative margin, low velocity
 
 ## Business Context
 
-The client (Superstore EU) was struggling with:
-- Manual, error-prone Excel/PowerPoint reporting
-- No real-time visibility on European operations
-- Marketing budget allocated by intuition rather than data
+**Client problem**: manual, error-prone Excel/PowerPoint reporting, no real-time European visibility, marketing budget allocated by intuition.
 
 **Outcome**: single interactive platform replacing 3 legacy reports, enabling self-service analysis for non-technical stakeholders.
-
----
-
-## Technical Details
-
-| Item | Detail |
-|------|--------|
-| Platform | Tableau Desktop / Tableau Public |
-| Data source | Superstore European sales dataset |
-| Visualisation types | Time series, choropleth map, bar chart, scatter plot, KPI tiles |
-| Interactivity | Cross-filter, drill-down, parameter controls |
-
----
 
 ## Technologies
 
