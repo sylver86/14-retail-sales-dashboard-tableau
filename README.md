@@ -1,59 +1,71 @@
-# Tableau BI RetailReveal: In-Depth Sales Analysis for Superstore 
+# RetailReveal — European Sales Intelligence Dashboard (Tableau)
 
-https://public.tableau.com/app/profile/eugenio.pasqua/viz/shared/747ZJK6KW
+![Tableau](https://img.shields.io/badge/Tableau-Public-E97627?logo=tableau&logoColor=white)
+![BI](https://img.shields.io/badge/Business%20Intelligence-Dashboard-blue)
 
-## Project Overview
+## Live Dashboard
 
-RetailReveal is a comprehensive Tableau Business Intelligence solution developed for Superstore, a forward-thinking European retail giant. This project aims to transform Superstore's decision-making process from intuition-based to data-driven, providing powerful insights and visualization tools for sales analysis across their European operations.
+[![Open in Tableau Public](https://img.shields.io/badge/Open%20Dashboard-Tableau%20Public-E97627?logo=tableau&logoColor=white)](https://public.tableau.com/app/profile/eugenio.pasqua/viz/shared/747ZJK6KW)
 
-## Background
+---
 
-Superstore recognized the need to solidify its market position in Europe through data-driven decision making. The company was struggling with:
+## Overview
 
-- Time-consuming and error-prone manual creation of spreadsheets and PowerPoint presentations
-- Inefficient analysis of European orders
-- Lack of real-time, interactive data visualization tools
+**RetailReveal** is a Tableau BI solution built for a European Superstore to replace manual spreadsheet reporting with an interactive, data-driven decision-making tool.
+The project delivers two connected workbooks: a **sales monitoring dashboard** and a **marketing budget allocation story** — together covering the full analytical lifecycle from descriptive KPIs to prescriptive budget recommendations.
 
-## Project Objectives
+---
 
-1. Develop a Tableau dashboard for monitoring Superstore's activities in Europe
-2. Provide data-driven insights to optimize marketing budget allocation
-3. Enhance overall business efficiency and profitability
+## Dashboard Components
 
-## Features
+### 1. Sales Monitoring Dashboard
+Interactive, filterable views including:
 
-### 1. Interactive Tableau Dashboard
+| Visualisation | Purpose |
+|---------------|---------|
+| Sales trend over time | Track revenue trajectory by period |
+| Profit analysis by European country | Identify geographic winners and underperformers |
+| Units shipped by shipping class | Optimise logistics and fulfilment costs |
+| Product-level profitability | Surface margin outliers |
 
-The main dashboard offers dynamic, filterable visualizations including:
+Filters: country, product category, time period, shipping class.
 
-- Sales trend over time
-- Profit analysis by European country
-- Quantity of products shipped by shipping class
+### 2. Marketing Budget Allocation Story (3C structure)
+A narrative Tableau Story following the **Context → Conflict → Conclusion** framework:
 
-Additional features may include:
-- A secondary dashboard for deeper data exploration
-- Custom visualizations for enhanced monitoring capabilities
-
-### 2. Marketing Budget Allocation Story
-
-A Tableau Story presentation to guide marketing budget allocation, featuring:
-
-- Products recommended for increased budget allocation
-- Products suggested for reduced investment
-- Products to consider removing from the catalog
-
-This story follows the 3C rule (Context, Conflict, Conclusion) to effectively communicate insights to stakeholders.
+- **Products to scale up**: high margin, growing demand
+- **Products to reduce investment**: declining performance
+- **Products to discontinue**: negative margin, low velocity
 
 ### 3. Bonus Insights
+- Profit margin analysis by city and country
+- Shipping efficiency per product category
+- Performance trend decomposition (seasonality vs. trend)
 
-Additional analyses to improve Superstore's efficiency, potentially including:
+---
 
-- Profit margin analysis
-- Performance trends across countries and cities
-- Shipping efficiency insights for specific products
+## Business Context
+
+The client (Superstore EU) was struggling with:
+- Manual, error-prone Excel/PowerPoint reporting
+- No real-time visibility on European operations
+- Marketing budget allocated by intuition rather than data
+
+**Outcome**: single interactive platform replacing 3 legacy reports, enabling self-service analysis for non-technical stakeholders.
+
+---
 
 ## Technical Details
 
-- **Platform:** Tableau
-- **Data Source:** Superstore European sales data
-- **Key Visualizations:** Time series charts, geographical maps, bar charts, scatter plots
+| Item | Detail |
+|------|--------|
+| Platform | Tableau Desktop / Tableau Public |
+| Data source | Superstore European sales dataset |
+| Visualisation types | Time series, choropleth map, bar chart, scatter plot, KPI tiles |
+| Interactivity | Cross-filter, drill-down, parameter controls |
+
+---
+
+## Technologies
+
+`Tableau Desktop` · `Tableau Public` · `Calculated Fields` · `LOD Expressions` · `Story Points`
